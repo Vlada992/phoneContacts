@@ -1,3 +1,20 @@
+(function(){
+	this['toggleR'] = false;
+	this['takeTab'] = document.getElementById('myTabId');
+	this['takeTab1'] = document.getElementById('myTabId1');
+    this['ShowHide'] = document.getElementById('showAll1');
+    this['elmAll'] =  document.getElementsByClassName('firstTd');
+    this['elmAll1'] = document.getElementsByClassName('secondTd');
+    this['resDiv'] = document.getElementById('searchRes');
+    this['searchBtn'] = document.getElementById('lastNameSr');
+    this['trustedArr'] = [];
+    this['trustedArr1'] = [];
+    this['pushDelEvn'] = [];
+    console.log('sta je dis:', this)
+})(this);
+
+
+/*
 var toggleR = false;
 var takeTab = document.getElementById('myTabId');
 var takeTab1 = document.getElementById('myTabId1');
@@ -6,9 +23,11 @@ var elmAll = document.getElementsByClassName('firstTd');
 var elmAll1 = document.getElementsByClassName('secondTd');
 let resDiv = document.getElementById('searchRes');
 let searchBtn = document.getElementById('lastNameSr');
-let trustedArr = [];
-let trustedArr1 = [];
-let pushDelEvn = [];
+//let trustedArr = [];
+//let trustedArr1 = [];
+//let pushDelEvn = [];
+*/
+
 
 $('#showAll1').on('click', e => {
     if (pushDelEvn.length > 0) {
@@ -157,3 +176,19 @@ $('#formSearch').on('submit', e => {
         } //for loop for returning text 0 contact.
     };
 });
+
+
+
+/*
+	hit = {
+		toggleR:false,
+		takeTab:document.getElementById('myTabId'),
+		takeTab1:document.getElementById('myTabId1'),
+		ShowHide:document.getElementById('showAll1'),
+		elmAll: document.getElementsByClassName('firstTd'),
+		resDiv:document.getElementById('searchRes'),
+		searchBtn:document.getElementById('lastNameSr'),
+		trustedArr:new Array(),
+		trustedArr1:[],
+		pushDelEv:[]
+	} */

@@ -89,18 +89,7 @@
 		<script type="text/javascript">
 		var phpLastN = <?php echo json_encode($results5) ?>
 		</script>
-		<script>
-		console.log($('#submitId1'))
-			let onAddC = document.getElementById('submitId1');
-			let addS =   document.getElementById('addSymb')
-			console.log(onAddC)
-			onAddC.addEventListener("click",(e)=>{
-			addS.style.opacity='0.9';
-		setTimeout(()=>{
-		addS.style.display = 'none'
-		}, 2000)
-			});
-		</script>
+		<script src = 'main2.js'></script>
 		<script src='main1.js'></script>
 	</body>
 </html>
