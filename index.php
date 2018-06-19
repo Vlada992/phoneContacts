@@ -42,7 +42,7 @@
 			</form>
 			<div id='btnCont' class='container'>
 				<button id='showAll1' value='Show All'>Show All &nbsp;<i class="fi-torsos-all"></i></button>
-				<button id='deleteAll'  onclick="myAjax1()">Delete All  &nbsp;<i class="fa fa-trash"></i></button>
+				<button id='deleteAll'  onclick="ajaxAndOpac()">Delete All  &nbsp;<i class="fa fa-trash"></i></button>
 				<form id='formSearch' name='searchFor'>
 					<input title='By name/surname/number' type='text' id='lastNameSr' name='takeSearched' placeholder='Search One...'>
 					<button id='searchSub'>Search &nbsp;&nbsp;<i id='searchIcn' class="fa fa-search"></i></button>

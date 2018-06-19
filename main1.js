@@ -7,16 +7,20 @@
     this['elmAll1'] = document.getElementsByClassName('secondTd');
     this['resDiv'] = document.getElementById('searchRes');
     this['searchBtn'] = document.getElementById('lastNameSr');
+    this['delBtn']  = document.getElementById('deleteAll')
     this['trustedArr'] = [];
     this['trustedArr1'] = [];
     this['pushDelEvn'] = [];
+
+    this['allVar'] = {}
 })(this);
 
 
 $('#showAll1').on('click', e => {
     if (pushDelEvn.length > 0) {
         takeTab.style.opacity = '0'
-        return false;
+        return false;  
+
     }
     e.preventDefault()
     trustedArr.push(e.isTrusted);
@@ -54,21 +58,21 @@ $('#showAll1').on('click', e => {
     }
 });
 
-function myAjax1() {
+function ajaxAndOpac(){
     takeTab.style.opacity = '0';
     takeTab1.style.opacity = '0';
     resDiv.style.opacity = '0'
     ShowHide.innerHTML = '<span class="onEmpt">empty &nbsp;<i class="fa fa-times-circle"></i></span>';
-    let delBtn = document.getElementById('deleteAll')
     delBtn.innerHTML = '<soan class="onEmpt">deleted &nbsp; <i class="fa fa-times-circle"></i></span>';
     pushDelEvn.push('deletedPressed');
+    /*Ajax part*/
     $.ajax({
         method: "POST",
         url: './deleteAll.php',
         data: { action: 'call_this' },
         success: (html) => {}
     });
-}
+};
 
 $('#formSearch').on('submit', e => {
     if (pushDelEvn.length > 0) {
