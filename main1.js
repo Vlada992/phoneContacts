@@ -1,7 +1,7 @@
 (function(){
-	this['toggleR'] = false;
-	this['takeTab'] = document.getElementById('myTabId');
-	this['takeTab1'] = document.getElementById('myTabId1');
+    this['toggleR'] = false;
+    this['takeTab'] = document.getElementById('myTabId');
+    this['takeTab1'] = document.getElementById('myTabId1');
     this['ShowHide'] = document.getElementById('showAll1');
     this['elmAll'] =  document.getElementsByClassName('firstTd');
     this['elmAll1'] = document.getElementsByClassName('secondTd');
