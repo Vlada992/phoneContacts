@@ -1,317 +1,368 @@
-
-
-
-
-
-
 body {
-	background-image: url('images/newEdit5.png');
-
+    background-image: url('images/newEdit5.png');
 }
 
-
-
 .formId {
-	background-color: #efefcc;
+    background-color: #efefcc;
     border: 3px solid #d1d166;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 20%;
     margin: 0 auto;
     padding: 1%;
-    opacity:0.9;
-    font-weight:800;
-    color:#595900;
+    opacity: 0.9;
+    font-weight: 800;
+    color: #595900;
     margin: 0 5px;
-    margin-left:5%;
-    height:300px;
-    margin-bottom:3%;
+    margin-left: 5%;
+    height: 300px;
+    margin-bottom: 3%;
+    width: auto;
 }
-
 
 #headerId1 {
- 	font-size: 35px;
+    font-size: 35px;
     font-family: 'Courier Regular';
     display: center;
-    color:black;
+    color: black;
     width: 45%;
     margin: 0 auto;
-    margin-bottom:10%;
-    margin-top:5%;
-    font-weight:900;
-    background-color:#e8e8b2;
-    opacity:0.8;
-    padding:2%;
-    border:1px solid #d1d166;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-weight: 900;
+    background-color: #e8e8b2;
+    opacity: 0.8;
+    padding: 2%;
+    border: 1px solid #d1d166;
 }
 
-
 #iBook1 {
-	text-align:center;
-	font-size:60px;
+    text-align: center;
+    font-size: 60px;
 }
 
 #submitId1 {
-margin-top:5%;
-border-radius:0!important;
-background-color:#a1a100!important;
-color:#302013;
-font-weight:900;
-height:35px;
-font-size:18px;
+    margin-top: 5%;
+    border-radius: 0!important;
+    background-color: #a1a100!important;
+    color: #302013;
+    font-weight: 900;
+    height: 35px;
+    font-size: 18px;
 }
 
-#submitId1:hover { 
- background-color:#7d7d00!important;
- color:black;
+#submitId1:hover {
+    background-color: #7d7d00!important;
+    color: black;
 }
+
 .inp1 {
- 	background-color:#f7f7e5!important;
- 	border:1px solid #baba19;
+    background-color: #f7f7e5!important;
+    border: 1px solid #baba19;
 }
+
 .inp1:focus {
-	background-color:#baba19;
+    background-color: #baba19;
 }
+
 table {
-	background-color: #efefcc;
+    background-color: #efefcc;
     border: 1px solid #d1d166;
-	margin-bottom:5%;
+    margin-bottom: 5%;
 }
+
 .firstTh {
-	text-align:center;
-	padding:3%;
-	background-color:#dede93;
+    text-align: center;
+    padding: 3%;
+    background-color: #dede93;
     border: 3px solid #d1d166;
     color: black;
     font-size: 15px;
 }
 
-table,  .firstTd { 
+table,
+.firstTd {
     border: 3px solid #d1d166;
-	padding:1.5%;
-	padding-top: 3%;
-	padding-bottom:3%;
-	width:660px;
-	font-weight:800;
+    padding: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 660px;
+    font-weight: 800;
 }
+
 #btnCont {
-	background-color:#efefcc;
+    background-color: #efefcc;
     border: 3px solid #d1d166;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     margin: 0 auto;
     padding: 1%;
-    opacity:0.9;
-    font-weight:800;
-    color:#595900;
-    height:300px;
-    width:170px;
+    opacity: 0.9;
+    font-weight: 800;
+    color: #595900;
+    height: 300px;
+    width: 170px;
     margin: 0 5px;
-    margin-bottom:3%;
+    margin-bottom: 3%;
 }
 
 #showAll1 {
-margin-top:2%;
-border-radius:0!important;
-background-color:#a1a100!important;
-color:#302013;
-font-weight:900;
-height:35px;
-font-size:18px;
-width:100%;
+    margin-top: 2%;
+    border-radius: 0!important;
+    background-color: #a1a100!important;
+    color: #302013;
+    font-weight: 900;
+    height: 35px;
+    font-size: 18px;
+    width: 100%;
 }
 
-#showAll1:hover{
-	background-color:#7d7d00!important;
-    color:black;
+#showAll1:hover {
+    background-color: #7d7d00!important;
+    color: black;
 }
-
 
 .mainDiv {
-	display:flex;
-	justify-content:flex-start;
-	margin: 0 -5px;
-	flex-wrap:wrap;
-	margin-bottom:15%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 -5px;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
 }
 
-
-
-
 #deleteSome:hover {
-	 color:black;
-	 background-color:#7d7d00!important;
+    color: black;
+    background-color: #7d7d00!important;
 }
 
 #deleteAll:hover {
-   background-color:#7d7d00!important;
-   color:black;
-
+    background-color: #7d7d00!important;
+    color: black;
 }
-
 
 #circF {
-	color:white;
-	padding:6%;
-	padding-left: 9%
-	padding-right:9%;
-	border-radius:90%;
-	margin:2%;
-	background-color:green;
-	/*float:left;*/
+    color: white;
+    padding: 6%;
+    padding-left: 9% padding-right:9%;
+    border-radius: 90%;
+    margin: 2%;
+    background-color: green;
 }
-.fa-plus, .fi-torsos-all, .fa-trash, .fa-address-book, #eyeSl, .octicon-trashcan {
-	color:#49311c!important;
-	font-size:20px;
+
+.fa-plus,
+.fi-torsos-all,
+.fa-trash,
+.fa-address-book,
+#eyeSl,
+.octicon-trashcan {
+    color: #49311c!important;
+    font-size: 20px;
 }
+
 #deleteAll {
-margin-top:2%;
-background-color:#a1a100!important;
-color:#302013;
-font-weight:900;
-height:35px;
-font-size:18px;
-border-radius:0!important;
+    margin-top: 2%;
+    background-color: #a1a100!important;
+    color: #302013;
+    font-weight: 900;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 0!important;
 }
 
 #deleteSome {
-margin-top:2%;
-background-color:#a1a100!important;
-color:#302013;
-font-weight:900;
-height:35px;
-font-size:15px;
-border-radius:0!important;
+    margin-top: 2%;
+    background-color: #a1a100!important;
+    color: #302013;
+    font-weight: 900;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 0!important;
 }
 
 #lastNameSr {
-margin-top:2%;
-background-color:#DDDD92;
-color:black;
-font-weight:500;
-height:35px;
-font-size:13px;
-border-radius:0!important;
-border:1px solid #a1a100;
-width:100%;
+    margin-top: 2%;
+    background-color: #DDDD92;
+    color: black;
+    font-weight: 500;
+    height: 35px;
+    font-size: 13px;
+    border-radius: 0!important;
+    border: 1px solid #a1a100;
+    width: 100%;
 }
 
-
 #lastNameSr:focus {
- color:black;
- background-color:white;
+    color: black;
+    background-color: white;
 }
 
 #searchSub {
-background-color:#a1a100!important;
-color:#302013;
-font-weight:900;
-height:35px;
-font-size:15px;
-border-radius:0!important;
-width:100%;
-border: 1px solid #A5A56D;/*#DDDD92;*/
-
+    background-color: #a1a100!important;
+    color: #302013;
+    font-weight: 900;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 0!important;
+    width: 100%;
+    border: 1px solid #A5A56D;
 }
+
 #searchSub:hover {
-	background-color:#7d7d00!important;
-    color:black;
+    background-color: #7d7d00!important;
+    color: black;
 }
 
 #myTabId1 {
-	/*display: flex;
-    flex-direction: column;*/
     margin: 0 5px;
     margin-left: 5%;
-    width: 35.6%;
+    width: 35.79%;
 }
 
- .secondTh {
-	padding:2.5%;
-	background-color:#e8e8b2;
+.secondTh {
+    padding: 2.5%;
+    background-color: #e8e8b2;
     border: 3px solid #d1d166;
 }
 
 .secondTd {
-	border: 3px solid #d1d166;
-	padding:1.5%;
-	padding-top: 3%;
-	padding-bottom:3%;
-	width:75%;
-	font-weight:800;
+    border: 3px solid #d1d166;
+    padding: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 75%;
+    font-weight: 800;
 }
 
 .toRed {
-	color:black;
-	padding:2%;
-	background-color:#7d7d3d;
-	display: flex;
+    color: black;
+    padding: 2%;
+    background-color: #7d7d3d;
+    display: flex;
     justify-content: flex-start;
-    font-size:20px;
-    font-family:'Tahoma';
-
+    font-size: 20px;
+    font-family: 'Tahoma';
 }
-
 
 #numbTd {
-	font-weight:900;
-	font-size:14px;
-	font-family:'Arial';
+    font-weight: 900;
+    font-size: 14px;
+    font-family: 'Arial';
 }
 
-.howMany{
-   
-	color:red;
-	font-family:'System Bold';
-	font-size:25px;
-	background-color:#484823;
-	width:35px;
-	padding-right:2.5%!important;
-    padding-left:2.5%!important;
-    padding-top:0.5%!important;
-    padding-bottom:0.5%!important;
+.howMany {
+    color: red;
+    font-size: 25px;
+    background-color: #484823;
+    width: 35px;
+    padding-right: 2.5%!important;
+    padding-left: 2.5%!important;
+    padding-top: 0.5%!important;
+    padding-bottom: 0.5%!important;
 }
 
 #forNum {
-	color:#009900;
-	background-color:#ececc1;
+    color: #009900;
+    background-color: #ececc1;
 }
-.glyphicon-earphone{
-	color:black;
+
+.glyphicon-earphone {
+    color: black;
 }
+
 .fTms {
-	color:red;
-	font-size:30px;
+    color: red;
+    font-size: 30px;
 }
+
 #searchRes {
-	background-color:#DDDD92;
-	height:35px;
-	width:100%;
+    background-color: #DDDD92;
+    height: 35px;
+    width: 100%;
     border: 1px solid #a1a100;
 }
+
 .resId1 {
-  color:red;
-  font-size:20px;
-  padding-left:2.5%;
-  padding-right:1.5%;
-  padding:1.7%;
+    color: red;
+    font-size: 20px;
+    padding-left: 2.5%;
+    padding-right: 1.5%;
 }
+
 .resId2 {
-	color:black;
-	font-family:'Roman';
+    color: black;
+    font-family: 'Roman';
+    font-variant: small-caps;
 }
+
+#searchIcn {
+    display: inline;
+}
+
+#addSymb {
+    font-size: 40px;
+    margin: 0 auto;
+    color: #a1a100;
+    font-weight: 900;
+}
+
+.onEmpt {
+    color: red;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
 @media screen and (max-width: 1200px) and (min-width: 200px) {
-	#myTabId {margin-left:5%;}
-	#myTabId1{margin-bottom:10%;}
-	#headerId1{text-align:center;}
-	#lastNameSr{width:100%;}
+    #myTabId {
+        margin-left: 5%;
+    }
+    #myTabId1 {
+        margin-bottom: 10%;
+    }
+    #headerId1 {
+        text-align: center;
+    }
+    #lastNameSr {
+        width: 100%;
+    }
 }
+
 @media screen and (max-width: 990px) and (min-width: 200px) {
-	#submitId1{font-size:13.5px;}
+    #submitId1 {
+        font-size: 13.5px;
+    }
 }
 
 
-#formSearch {
+@media only screen and (max-width: 415px) {
+
+    #btnCont {
+        margin-left: 5%;
+        width: auto;
+        /*48.39%;*/
+    }
+    table {
+        width: auto;
+        margin: auto;
+    }
+    #myTabId1 {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #headerId1 {
+        font-size: 20px;
+        display: left;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    #headerId1 {
+        font-size: 12px;
+    }
+    .fa-address-book {
+        font-size: 10px!important;
+        width: 100%;
+    }
 }

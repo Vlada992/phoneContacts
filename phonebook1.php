@@ -20,5 +20,8 @@ if(!mysqli_query($con,$query))
 }
 
 header("Location: ./connect1.php"); die('Something just went wrong...');
+
 ?>
+
+
 
