@@ -10,23 +10,7 @@
     this['trustedArr'] = [];
     this['trustedArr1'] = [];
     this['pushDelEvn'] = [];
-    console.log('sta je dis:', this)
 })(this);
-
-
-/*
-var toggleR = false;
-var takeTab = document.getElementById('myTabId');
-var takeTab1 = document.getElementById('myTabId1');
-var ShowHide = document.getElementById('showAll1');
-var elmAll = document.getElementsByClassName('firstTd');
-var elmAll1 = document.getElementsByClassName('secondTd');
-let resDiv = document.getElementById('searchRes');
-let searchBtn = document.getElementById('lastNameSr');
-//let trustedArr = [];
-//let trustedArr1 = [];
-//let pushDelEvn = [];
-*/
 
 
 $('#showAll1').on('click', e => {
@@ -179,16 +163,3 @@ $('#formSearch').on('submit', e => {
 
 
 
-/*
-	hit = {
-		toggleR:false,
-		takeTab:document.getElementById('myTabId'),
-		takeTab1:document.getElementById('myTabId1'),
-		ShowHide:document.getElementById('showAll1'),
-		elmAll: document.getElementsByClassName('firstTd'),
-		resDiv:document.getElementById('searchRes'),
-		searchBtn:document.getElementById('lastNameSr'),
-		trustedArr:new Array(),
-		trustedArr1:[],
-		pushDelEv:[]
-	} */

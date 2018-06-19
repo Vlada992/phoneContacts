@@ -1,5 +1,4 @@
 
-console.log($('#submitId1'))
 let onAddC = document.getElementById('submitId1');
 let addS = document.getElementById('addSymb')
 console.log(onAddC)
